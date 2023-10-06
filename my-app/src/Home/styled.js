@@ -4,7 +4,19 @@ export const HomeContainerWrapper = styled.div`
   display: flex;
   height: 100vh;
 `;
-
+export const SideTitleBox = styled.div`
+    height: 10%;
+    padding: 50px 25% 30px 20%;
+`;
+export const SideTitle = styled.div`
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  border-radius: 15px;
+  color:  #2a7ce1;
+`;
 export const ProfileImgContainerWrapper = styled.div`
   height: 40%;
   padding: 10px;
@@ -72,16 +84,3 @@ export const BoxContent = styled.div`
   font-size: 18px;
 `;
 
-export const SideTitleBox = styled.div`
-    height: 10%;
-    padding: 50px 25% 30px 25%;
-`;
-export const SideTitle = styled.div`
-  width: fit-content;
-  padding: 5px 10px 5px 10px;
-  background-color: white;
-  font-size: 50px;
-  font-weight: bolder;
-  border-radius: 15px;
-  color:  #2a7ce1;
-`;

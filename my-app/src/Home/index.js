@@ -17,7 +17,7 @@ const Home = () => {
         <HomeContainerWrapper>
             <HomeLeftContainer>
                 <SideTitleBox>
-                    <SideTitle>오소영</SideTitle>
+                    <SideTitle>SoYoung</SideTitle>
                 </SideTitleBox>
                 <ProfileImgContainerWrapper>
                     <ProfileImgContainer>
