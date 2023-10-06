@@ -15,7 +15,7 @@ export const ProfileImgContainer = styled.div`
     height: 80%;
     border-radius: 70%;
     overflow: hidden;
-    margin-left: 25px;
+    margin-left: 10%;
 `;
 
 export const Profileimg = styled.img`
@@ -27,7 +27,7 @@ export const Profileimg = styled.img`
 export const HomeLeftContainer = styled.div`
   width: 30%;
   height: 100%;
-  box-shadow: 0px 0px 2px gray;
+  box-shadow: 0px 0px 4px gray;
   z-index: 0;
 `;
 export const HomeRightContainerWrapper = styled.div`
@@ -43,31 +43,45 @@ export const HomeRightContainer = styled.div`
 export const RightBox = styled.div`
     width: 50%;
     height: 300px;
-    background-color: white;
-    border-radius: 3%;
-    margin: 30px 10px 10px 20px;
-    box-shadow: 0px 0px 2px gray;
+    background-color: #f5f8fc;
+    border-radius: 5%;
+    margin: 30px 15px 10px 30px;
+    box-shadow: 0.5px 2px 4px #d3d8db;
 `;
 
-export const BoxTitle = styled.div`
+export const BoxTitleContainer = styled.div`
   height: 20%;
-  font-size: x-large;
-  font-weight: bold;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 `;
+export const BoxTitle = styled.div`
+  font-size: large;
+  font-weight: bold;
+  background-color: #2a7ce1;
+  padding: 8px;
+  border-radius: 8px;
+  width: fit-content;
+  color: white;
+`;
+
 export const BoxContent = styled.div`
   height: 70%;
+  text-align: start;
+  padding-left: 7%;
+  font-size: 18px;
 `;
 
 export const SideTitleBox = styled.div`
     height: 10%;
-    padding: 50px 50px 10px 50px;
+    padding: 50px 25% 30px 25%;
 `;
 export const SideTitle = styled.div`
   width: fit-content;
   padding: 5px 10px 5px 10px;
-  background-color: #2a7ce1;
-  font-size: x-large;
-  font-weight: bold;
+  background-color: white;
+  font-size: 50px;
+  font-weight: bolder;
   border-radius: 15px;
-  color: white;
+  color:  #2a7ce1;
 `;
