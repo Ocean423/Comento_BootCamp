@@ -6,9 +6,22 @@ export const HomeContainerWrapper = styled.div`
   height: 900px;
 `;
 
-export const ProfileImgContainer = styled.div`
+export const ProfileImgContainerWrapper = styled.div`
   height: 40%;
   padding: 10px;
+`;
+
+export const ProfileImgContainer = styled.div`
+    width: 80px;
+    height: 80px;
+    border-radius: 70%;
+    overflow: hidden;
+`;
+
+export const Profileimg = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
 export const HomeLeftContainer = styled.div`
