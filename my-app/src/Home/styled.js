@@ -27,7 +27,8 @@ export const Profileimg = styled.img`
 export const HomeLeftContainer = styled.div`
   width: 30%;
   height: 100%;
-  box-shadow: 0px 0px 5px gray;
+  box-shadow: 0px 0px 2px gray;
+  z-index: 0;
 `;
 export const HomeRightContainerWrapper = styled.div`
   width: 100%;
@@ -57,9 +58,16 @@ export const BoxContent = styled.div`
   height: 70%;
 `;
 
-export const TitleBox = styled.div`
+export const SideTitleBox = styled.div`
     height: 10%;
-    font-size: x-large;
-    font-weight: bold;
-    padding: 20px;
+    padding: 50px 50px 10px 50px;
+`;
+export const SideTitle = styled.div`
+  width: fit-content;
+  padding: 5px 10px 5px 10px;
+  background-color: #2a7ce1;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 15px;
+  color: white;
 `;

@@ -4,7 +4,6 @@ export const HeaderContainer = styled.div`
   width: 100vw;
   height: 50px;
   background-color: #2a7ce1;
-  opacity: 90%;
   z-index: 2;
   box-shadow: 0px 0px 3px gray;
 `;

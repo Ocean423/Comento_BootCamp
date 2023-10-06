@@ -4,7 +4,7 @@ import {HeaderContainer, HeaderTitle} from "./styled";
 const Header = () => {
     return(
         <HeaderContainer>
-            <HeaderTitle>comento 1차 과제</HeaderTitle>
+            <HeaderTitle>comento</HeaderTitle>
         </HeaderContainer>
 
     );
