@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HomeContainerWrapper = styled.div`
   display: flex;
   background-color: yellowgreen;
-  height: 900px;
+  height: 100vh;
 `;
 
 export const ProfileImgContainerWrapper = styled.div`
@@ -29,18 +29,21 @@ export const HomeLeftContainer = styled.div`
   width: 30%;
   height: 100%;
 `;
-
+export const HomeRightContainerWrapper = styled.div`
+  width: 100%;
+`;
 export const HomeRightContainer = styled.div`
   display: flex;
   background-color: thistle;
-  width: 70%;
-  height: 100%;
+  width: 100%;
 `;
 
 export const RightBox = styled.div`
     width: 50%;
-    height: 100px;
+    height: 200px;
     background-color: yellow;
+    border-radius: 3%;
+    margin: 5px;
 `;
 
 export const TitleBox = styled.div`
